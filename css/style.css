@@ -13,36 +13,6 @@ html {
     background: var(--bg);
 }
 
-body {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Navigation */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-}
-
-.brand {
-    font-size: 26px;
-    font-weight: 600;
-    color: var(--dark);
-}
-
-.btn-nav {
-    padding: 10px 18px;
-    border: none;
-    border-radius: 20px;
-    background: var(--dark);
-    color: var(--white);
-    font-size: 13px;
-    cursor: pointer;
-}
-
 /* Hero */
 #hero {
     width: 100%;
@@ -62,12 +32,6 @@ nav {
     font-size: 20px;
     margin: 0;
     color: var(--dark);
-}
-
-.hero-prefix .accent {
-    font-size: 52px;
-    font-style: italic;
-    font-weight: 400;
 }
 
 .hero-text h1 {
@@ -113,9 +77,11 @@ nav {
     border-radius: 10px;
     padding: 35px 40px;
     margin-bottom: 20px;
+    margin-right: 30%;
     display: flex;
     align-items: center;
     gap: 30px;
+    height: 250px;
 }
 
 .compteur-text h3 {
@@ -136,6 +102,7 @@ nav {
     border-radius: 10px;
     padding: 35px 40px;
     margin-bottom: 20px;
+    margin-left: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -170,6 +137,7 @@ nav {
     border-radius: 10px;
     padding: 25px 30px;
     margin-bottom: 30px;
+    margin-right: 30%;
 }
 
 #equipes h3 {
@@ -298,7 +266,7 @@ footer {
     background: var(--accent);
     color: var(--white);
     padding: 35px 40px;
-    margin: 0 -20px;
+    
     margin-top: 20px;
 }
 
