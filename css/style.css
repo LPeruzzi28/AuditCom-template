@@ -20,6 +20,9 @@ html {
     border-radius: 10px;
     padding: 30px 40px;
     box-sizing: border-box;
+    height: 400px;
+    align-content: center;
+    margin-bottom: 50px;
 }
 
 .hero-content {
@@ -29,8 +32,7 @@ html {
 }
 
 .hero-prefix {
-    font-size: 20px;
-    margin: 0;
+    font-size: 125px;
     color: var(--dark);
 }
 
@@ -40,6 +42,7 @@ html {
     margin: 0;
     color: var(--dark);
 }
+
 
 /* Intro */
 .intro {
@@ -69,6 +72,7 @@ html {
     color: var(--white);
     font-size: 15px;
     cursor: pointer;
+    margin-bottom: 75px;
 }
 
 /* Compteur */
