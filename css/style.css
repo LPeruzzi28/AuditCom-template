@@ -728,12 +728,9 @@ footer p {
     }
 }
 
-/* ============================================
-   COMPOSANT MESSAGE (SUCCESS / ERROR / LOADING)
-============================================ */
- 
 aside {
-    margin-top: 2rem;
+    width: 65%;
+    margin: 2rem auto 0;
     padding: 1.5rem 2rem;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -747,7 +744,7 @@ aside {
 .download-status {
     margin-top: 6px;
     padding: 7px 13px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: var(--card);
     border-radius: 10px;
 }
  
@@ -766,28 +763,11 @@ aside.error {
 aside.loading {
     background: linear-gradient(
         to bottom,
-        #38B6FF 0%,
-        #4a9fd1 100%
+        var(--card) 0%,
+        var(--bg) 100%
     );
     color: #072050;
-}
- 
-/* Icône */
-aside::before {
-    content: "ℹ️";
-    font-size: 1.2rem;
-}
- 
-aside.success::before {
-    content: "✔️";
-}
- 
-aside.error::before {
-    content: "❌";
-}
- 
-aside.loading::before {
-    content: "⏳";
+    display: flex;
 }
  
 /* Texte */

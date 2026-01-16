@@ -354,3 +354,17 @@ downloadButtons.forEach(button => {
 closeBtn.addEventListener("click", () => {
   formSection.classList.remove("active");
 });
+
+function closeForm() {
+    const formSection = document.querySelector('.form-section');
+    if (formSection) {
+        formSection.classList.remove('active');
+    }
+}
+
+document.getElementById('downloadForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    closeForm();
+    
+});
