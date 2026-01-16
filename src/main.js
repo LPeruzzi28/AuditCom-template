@@ -334,3 +334,23 @@ form.addEventListener("submit", async (e) => {
 // ============================================================================
 
 loadPDFList();
+
+// ============================================================================
+// Modal Management
+// ============================================================================
+ 
+const downloadButtons = document.querySelectorAll(".btn-download");
+const formSection = document.querySelector(".form-section");
+const closeBtn = document.querySelector(".close-btn");
+ 
+// Ouvrir la modale
+downloadButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    formSection.classList.add("active");
+  });
+});
+ 
+// Fermer la modale avec la croix
+closeBtn.addEventListener("click", () => {
+  formSection.classList.remove("active");
+});
