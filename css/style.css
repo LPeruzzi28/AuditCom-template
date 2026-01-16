@@ -1,12 +1,11 @@
 @import "reset.css";
 
-.saira-<uniquifier> {
+.saira-uniquifier{
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 :root {
@@ -42,7 +41,7 @@ html {
 }
 
 #hero::before {
-    background: url('../images/terrain_foot.jpeg') center/cover;
+    background: url('../Images/terrain_foot.webp') center/cover;
     z-index: 0;
 }
 
